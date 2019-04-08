@@ -17,9 +17,9 @@ public class AsciiLevelLoader : MonoBehaviour
 
         string[] NumOfLines = File.ReadAllLines(filePath);
         
-        for (int y = 0; y < NumOfLines.Length; y++)
+        for (int z = 0; z < NumOfLines.Length; z++)
         {
-            string line = NumOfLines[y];
+            string line = NumOfLines[z];
             for (int x = 0; x < line.Length; x++)
             {
                 GameObject tile;
@@ -37,6 +37,12 @@ public class AsciiLevelLoader : MonoBehaviour
                     case 'G':
                         tile = Instantiate(Resources.Load("Prefabs/Ground"), transform) as GameObject;
                         break;
+                    case 'S':
+                        tile = Instantiate(Resources.Load("Prefabs/Stairs"), transform) as GameObject;
+                        break; 
+                    case 'L':
+                        tile = Instantiate(Resources.Load("Prefabs/Lamp"), transform) as GameObject;
+                        break;    
                     default:
                         tile = null;
                         break;
@@ -44,7 +50,7 @@ public class AsciiLevelLoader : MonoBehaviour
                 }
 
                 if (tile != null)
-                    tile.transform.position =Vector3.zero + Vector3.right * (x-line.Length/2) + -Vector3.up * (y-NumOfLines.Length/2) + Vector3.forward * 3f;
+                    tile.transform.position =Vector3.zero + Vector3.right * (x-line.Length/2) + Vector3.forward * (z-NumOfLines.Length/2) + Vector3.forward * 3f;
                 
 
             }

@@ -42,7 +42,10 @@ public class AsciiLevelLoader : MonoBehaviour
                         break; 
                     case 'L':
                         tile = Instantiate(Resources.Load("Prefabs/Lamp"), transform) as GameObject;
-                        break;    
+                        break;   
+                    case 'A':
+                        tile = Instantiate(Resources.Load("Prefabs/Apple"), transform) as GameObject;
+                        break; 
                     default:
                         tile = null;
                         break;

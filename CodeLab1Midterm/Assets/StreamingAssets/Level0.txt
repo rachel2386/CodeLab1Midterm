@@ -1,0 +1,53 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X-XX---------------------------XXXXX
+XXX----P-----------L------------XXXXX
+XXX------------E----------L----XX-XX
+XXX----------------------------XXXXXX----XX
+XXX------------------------X----XXX-X
+XXXX-----E-----------------------XXXXX
+XXX------------------L-----------XX--X----XX
+XXX---XXXX------------------X------XX
+XXXL--XXXX----X-------------X----XXXXX
+XXX-----XXXX------L-----XX-----L---X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXX-------------------------------------====-----------XXX----X------XXX--XX
+XXXXX       XX              X       XXXX------E----------XXX---X---L--XXXXX
+XXXXX X-----------L----------------  XXX------XXX---------XXXXXX---X--XXX---X-XX
+XXXXX               X              ---XXXXXXXX-----XXXXX-----------XXXXX
+XXX X-----------L----------------             XX                  XXXXXXXX
+XXXX             X                  X-------XX---L----------------------XX--XX
+XXXXX            X                XXXX--------XX----------------L------XX-X--XX
+ XX          X                   XXXXX-L----------------------------X-XXX
+XXX          X                     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X-XX------------------X---------XXXXX
+XXX-----XXX-----------L------------XXXXX
+XXX------L------E---------------XXXXX
+XXX----------------------------XXXXXXXXXX
+XXX------------------------X----XXXXXXX
+XXX-----E-----------XX--------X----XXXX
+XXX----------------XX--L-----E------XXX-X-XXXX
+XXX---XXXX----------XX--------X------XX
+XXXL--XXXX----X-------------X----XXXXX
+XXX-----XXXX-----------XX-----L---X-XX
+XXXXX-====-----------XXX----X------XXX--XX
+XXXX------E----------XXX---X------XXXXX
+XXX------XXX---------XXXXXX---X------X-XX
+X-XX---XX---XXX----XXXXXX---XXX-----XX-XX
+XXX---XXXXXXXX-----XXXXX-----------XXXX
+XXX-----------L-----------------------XX
+XXXX------------------------------XX-XXXX
+XXXXX-------------------------------XXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Build your map! 
+L- is a lamp
+p- is where you start
+X - is a wall
+G is the ground
+E is a surprise
+
+Controls
+WASD to walk around 
+Walk into Lamps to collect
+Enter to release Lamp
+R to reload Scene

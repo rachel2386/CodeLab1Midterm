@@ -9,9 +9,10 @@ public class AsciiLevelLoader : MonoBehaviour
 {
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        string filePath = Application.dataPath + "/Level0.txt";
+        string filePath = Application.streamingAssetsPath + "/Level0.txt";
+        print(filePath);
         if(!File.Exists(filePath))
             File.WriteAllText(filePath,"X");
 
@@ -26,14 +27,14 @@ public class AsciiLevelLoader : MonoBehaviour
                 switch (line[x])
                 {
                     case 'X':
-                        tile = Instantiate(Resources.Load("Prefabs/Wall"), transform) as GameObject;
+                        tile = Instantiate(Resources.Load("Prefabs/WallRandomizer"), transform) as GameObject;
                         break;
                     case 'P':
                         tile = Instantiate(Resources.Load("Prefabs/Player"), transform) as GameObject;
                         break;
-                    case 'E':
-                        tile = Instantiate(Resources.Load("Prefabs/Enemy"), transform) as GameObject;
-                        break;
+//                    case 'E':
+//                        tile = Instantiate(Resources.Load("Prefabs/Enemy"), transform) as GameObject;
+//                        break;
                     case 'G':
                         tile = Instantiate(Resources.Load("Prefabs/Ground"), transform) as GameObject;
                         break;
@@ -41,7 +42,7 @@ public class AsciiLevelLoader : MonoBehaviour
                         tile = Instantiate(Resources.Load("Prefabs/Stairs"), transform) as GameObject;
                         break; 
                     case 'L':
-                        tile = Instantiate(Resources.Load("Prefabs/Lamp"), transform) as GameObject;
+                        tile = Instantiate(Resources.Load("Prefabs/ObjectSpawner"), transform) as GameObject;
                         break;   
                     case 'A':
                         tile = Instantiate(Resources.Load("Prefabs/Apple"), transform) as GameObject;
@@ -61,9 +62,5 @@ public class AsciiLevelLoader : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

@@ -88,9 +88,9 @@ GameObject:
   - component: {fileID: 5097329912901017701}
   - component: {fileID: 5097329912898150469}
   - component: {fileID: 5097329912899248773}
-  - component: {fileID: 9000998231486342903}
   - component: {fileID: 5743262306756093269}
   - component: {fileID: 4435268023554522012}
+  - component: {fileID: 2278628818149852162}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -160,19 +160,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &9000998231486342903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5097329912901516357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ae79ea4c1dbd341aa0649973d59d65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!54 &5743262306756093269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -187,8 +174,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
+  m_Constraints: 80
+  m_CollisionDetection: 2
 --- !u!65 &4435268023554522012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -197,11 +184,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5097329912901516357}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.023644216, y: 0.023449201, z: 0.0228165}
-  m_Center: {x: -0.000076047145, y: -0.00000008661299, z: -0.0002001193}
+  m_Size: {x: 2.3256989, y: 0.91235733, z: 0.9219284}
+  m_Center: {x: -0.037879944, y: 0.004732132, z: 0.080013275}
+--- !u!114 &2278628818149852162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097329912901516357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ae79ea4c1dbd341aa0649973d59d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5097329912901516359
 GameObject:
   m_ObjectHideFlags: 0

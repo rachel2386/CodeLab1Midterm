@@ -15,7 +15,27 @@ ModelImporter:
     3300000: default
     4300000: default
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG
+    second: {fileID: 2100000, guid: 42ceb15fd9ca7c7469760720d5cce493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3SG
+    second: {fileID: 2100000, guid: d3d4056a7e57b704bb8234e6d3171be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG
+    second: {fileID: 2100000, guid: fcb72068b278d8b448bf6d8bec81fecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5SG
+    second: {fileID: 2100000, guid: d349cb3824bbac34da80186e4cea9d0b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

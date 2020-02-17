@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 8493978782005360909}
   - component: {fileID: 1324121464}
   - component: {fileID: 3768767682599413213}
+  - component: {fileID: 3625674288053132474}
   m_Layer: 0
-  m_Name: Lamp
+  m_Name: Lamp 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,3 +123,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &3625674288053132474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8493978782005360906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ae79ea4c1dbd341aa0649973d59d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myColor: {r: 0, g: 0, b: 0, a: 0}

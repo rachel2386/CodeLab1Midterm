@@ -11,7 +11,12 @@ ModelImporter:
     2300000: Geo_Chimpanzee
     3300000: Geo_Chimpanzee
     4300000: Geo_Chimpanzee
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG
+    second: {fileID: 2100000, guid: 12f2fc8bf14f99f4291e7cfbed65e85b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

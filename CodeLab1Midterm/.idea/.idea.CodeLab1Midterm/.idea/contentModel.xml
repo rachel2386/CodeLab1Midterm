@@ -21,16 +21,22 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
-        <e p="Level0.txt" t="Include" />
+        <e p="GameManager.cs" t="Include" />
         <e p="MovingShaderWVertColor.shader" t="Include" />
+        <e p="RandomSpawn.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AddLamp.cs" t="Include" />
+          <e p="AddLamp1.cs" t="Include" />
           <e p="AsciiLevelLoader.cs" t="Include" />
           <e p="Lamp.cs" t="Include" />
           <e p="MagicLamp.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="Level0.txt" t="Include" />
+        </e>
+        <e p="StreamingAssetsLevel0.txt" t="Include" />
       </e>
       <e p="CodeLab1Midterm.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

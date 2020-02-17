@@ -881,7 +881,37 @@ ModelImporter:
     4300334: mesh_345506366
     4300336: mesh_135878593
     4300338: mesh_2070547163
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_12___29102
+    second: {fileID: 2100000, guid: 5123589477dfe3e48b71773914b50b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_17___29102
+    second: {fileID: 2100000, guid: 6fb0b5d4627cea24f8ff3eaa29a9f644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_21___29102
+    second: {fileID: 2100000, guid: 1d0c54427aeb05144a0dc4589c3ee921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_23___29102
+    second: {fileID: 2100000, guid: c457923bd8b4e754d84b9c053f604bf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_5___29102
+    second: {fileID: 2100000, guid: 7c1b8e2b782536e41b650b522dd66344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_8___29102
+    second: {fileID: 2100000, guid: c22457f2a66f0784388894030fb35fe4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -912,7 +942,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.3
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
